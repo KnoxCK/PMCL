@@ -1,4 +1,32 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.banner {
+	display: flex;
+	align-content: center;
+}
+.banner-content {
+	text-align: center;
+	h1 {
+		font-size: 30px;
+	}
+}
+.page-content {
+	display: flex;
+}
+.intro-para {
+	font-size: 22px;
+}
+.contact-details {
+	border: 1px #F05652 solid;
+	h4 {
+		color: #F05652;
+	}
+	a {
+		text-decoration: none;
+		color: #2B2E72;
+	}
+	a:hover {
+		color: #F05652;
+	}
+}
+p {
+	color: #2B2E72;
+}
