@@ -10,6 +10,8 @@
   align-items: center;
   align-content: center;
   justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .banner-content {  
 	h1 {
@@ -21,7 +23,8 @@
 }
 @media only screen and (max-width: 452px) {
   .banner {
-     margin-top: 34px;
+     margin: 34px 0 0 0;
+
      height: 25vh;
      h1 {
       display: none;
