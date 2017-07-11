@@ -1,8 +1,12 @@
+.wrapper {
+	background-color: #f1f1f1;
+}
 .page-content {
 	display: flex;
 	justify-content: space-around;
 	//align-items: center;
 	align-content: center;
+	background-color: white;
 }
 .intro-para {
 	font-size: 22px;
@@ -42,7 +46,6 @@
 p {
 	color: #0F253D;
 }
-
 @media only screen and (max-width: 916px) {
 	.page-content {
 		flex-direction: column;
